@@ -26,7 +26,7 @@ set_query_var( 'archive_style', $archive_style );
 			if ( is_home() && ! is_front_page() ) :
 				?>
 				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					<h1 class="page-title"><?php single_post_title(); ?></h1>
 				</header>
 				<?php
 			endif;
